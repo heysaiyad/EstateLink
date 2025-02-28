@@ -12,6 +12,7 @@ import ProfileUpdatePage from "./routes/profileUpdatePage/profileUpdatePage";
 import {Layout, RequireAuth } from "./routes/layout/layout";
 import NewPostPage from "./routes/newPostPage/newPostPage";
 import { listPageLoader, singlePageLoader } from "./lib/loaders";
+import { profilePageLoader } from "./lib/loaders";
 
 
 
@@ -52,7 +53,8 @@ function App() {
       children:[
         {
           path:"/profile",
-          element:<ProfilePage/>
+          element:<ProfilePage/>,
+          loader: profilePageLoader,
         },
         {
           path:"/profile/update",
