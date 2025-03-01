@@ -11,8 +11,6 @@ function Navbar() {
 
   const fetch = useNotificationStore((state) => state.fetch);
   const number = useNotificationStore((state) => state.number);
-  console.log(number);
-  console.log("ali");
 
   fetch();
   // if(currentUser) fetch();
