@@ -1,4 +1,4 @@
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useLoaderData, useNavigate } from "react-router-dom";
 import Chat from "../../components/chat/Chat";
 import List from "../../components/list/List";
 import "./profilePage.scss";
@@ -7,6 +7,10 @@ import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 
 function ProfilePage() {
+  const data = useLoaderData();
+  // console.log(data);
+  // console.log("test");
+
   const {currentUser, updateUser} = useContext(AuthContext);
   const navigate = useNavigate();
 
@@ -57,16 +61,16 @@ function ProfilePage() {
             <button>Create New Post</button>
             </Link>
           </div>
-          <List />
+          <List  posts={data?.userPosts}/>
           <div className="title">
             <h1>Saved List</h1>
           </div>
-          <List />
+          <List posts={data?.savedPosts} />
         </div>
       </div>
       <div className="chatContainer">
         <div className="wrapper">
-          <Chat/>
+          <Chat chats={data?.chatResponse}/>
         </div>
       </div>
     </div>

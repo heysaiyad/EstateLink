@@ -10,6 +10,8 @@ import authRoute from "./routes/auth.route.js";
 import postRoute from "./routes/post.route.js";
 import testRoute from "./routes/test.route.js";
 import userRoute from "./routes/user.route.js";
+import chatRoute from "./routes/chat.route.js";
+import messageRoute from "./routes/message.route.js";
 
 // Resolve the directory of the current module
 const __filename = fileURLToPath(import.meta.url);
@@ -26,8 +28,8 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://real-estate-web-app-1cus.onrender.com",
-  // origin: "http://localhost:5173", 
+  // origin: "https://real-estate-web-app-1cus.onrender.com",
+  origin: "http://localhost:5173", 
   credentials: true, // Allow cookies to be sent
 };
 app.use(cors(corsOptions));
@@ -37,6 +39,8 @@ app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/test", testRoute);
 app.use("/api/posts", postRoute);
+app.use("/api/chats", chatRoute);
+app.use("/api/messages", messageRoute);
 
 // Serve static files for the frontend
 app.use(express.static(path.join(__dirname, "/client/dist")));

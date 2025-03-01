@@ -11,6 +11,8 @@ import Register from "./routes/register/register";
 import ProfileUpdatePage from "./routes/profileUpdatePage/profileUpdatePage";
 import {Layout, RequireAuth } from "./routes/layout/layout";
 import NewPostPage from "./routes/newPostPage/newPostPage";
+import { listPageLoader, singlePageLoader } from "./lib/loaders";
+import { profilePageLoader } from "./lib/loaders";
 
 
 
@@ -26,11 +28,13 @@ function App() {
         },
         {
           path:"/list",
-          element:<ListPage/>
+          element:<ListPage/>,
+          loader: listPageLoader,
         },
         {
           path:"/:id",
-          element:<SinglePage/>
+          element:<SinglePage/>,
+          loader: singlePageLoader, 
         },
         
         {
@@ -49,7 +53,8 @@ function App() {
       children:[
         {
           path:"/profile",
-          element:<ProfilePage/>
+          element:<ProfilePage/>,
+          loader: profilePageLoader,
         },
         {
           path:"/profile/update",

@@ -1,7 +1,7 @@
 import "./newPostPage.scss";
 import { useQuill } from "react-quilljs";
 import "quill/dist/quill.snow.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import UploadWidget from "../../components/uploadWidget/UploadWidget";
 import { useNavigate } from "react-router-dom";
 import apiRequest from "../../lib/apiRequest";
@@ -14,6 +14,13 @@ function NewPostPage() {
   const [error, setError] = useState("");
 
   const navigate = useNavigate();
+  useEffect(() => {
+    if (quill) {
+      quill.on('text-change', () => {
+        setValue(quill.root.innerHTML);
+      });
+    }
+  }, [quill]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -74,7 +81,7 @@ function NewPostPage() {
             </div>
             <div className="item description">
               <label htmlFor="desc">Description</label>
-              <div ref={quillRef} onChange={setValue} value={value} />
+              <div ref={quillRef} />
             </div>
             <div className="item">
               <label htmlFor="city">City</label>
