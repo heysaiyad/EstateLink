@@ -19,7 +19,11 @@ return res.data;
 
 export const profilePageLoader = async () => {
   const res = await apiRequest("/users/profilePosts");
- return res.data;
+  const chatResponse = await apiRequest("/chats");
+return{
+  userPosts: res.data.userPosts,
+  savedPosts: res.data.savedPosts,
+  chatResponse: chatResponse.data,}
 
   // return defer({
   //   postResponse: postPromise,

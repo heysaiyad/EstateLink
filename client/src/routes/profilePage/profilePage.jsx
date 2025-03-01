@@ -9,7 +9,7 @@ import { AuthContext } from "../../context/AuthContext";
 function ProfilePage() {
   const data = useLoaderData();
   // console.log(data);
-  // console.log("demo");
+  // console.log("test");
 
   const {currentUser, updateUser} = useContext(AuthContext);
   const navigate = useNavigate();
@@ -70,7 +70,7 @@ function ProfilePage() {
       </div>
       <div className="chatContainer">
         <div className="wrapper">
-          <Chat/>
+          <Chat chats={data?.chatResponse}/>
         </div>
       </div>
     </div>

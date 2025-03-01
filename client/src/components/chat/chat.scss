@@ -78,10 +78,12 @@
       .chatMessage{
         width: 50%;
 
-        &.own{
-          align-self: flex-end;
-          text-align: right;
-        }
+        // &.own{
+        //   align-self: flex-end;
+        //   text-align: right;
+        //   background-color: aqua;
+        // }
+        
 
         span{
           font-size: 12px;
