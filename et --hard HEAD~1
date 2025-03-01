@@ -1,0 +1,344 @@
+[33mcommit f50371253747560e292274b4f439184236995f76[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnew-feature[m[33m)[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat Mar 1 16:49:45 2025 +0530
+
+    Revert "feat: add dynamic notification counter using Zustand for chat"
+    
+    This reverts commit 069047983d734f498e4820666d850280441b4fcd.
+
+[33mcommit 069047983d734f498e4820666d850280441b4fcd[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat Mar 1 16:49:12 2025 +0530
+
+    feat: add dynamic notification counter using Zustand for chat
+
+[33mcommit b1e285e153463c33c494b4aa8264de6e2370f839[m[33m ([m[1;31morigin/new-feature[m[33m)[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat Mar 1 15:37:23 2025 +0530
+
+    feat: implement real-time chat using Socket.io and auto-scroll with useRef
+
+[33mcommit f28051493a30d9aeba3e4024506fb9fa56e7b611[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat Mar 1 11:55:47 2025 +0530
+
+    feat: Implemented chat feature without Socket.IO
+
+[33mcommit 49d3bd3a9612e3fa0d7af4b541e7572656d0524f[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Feb 28 23:48:14 2025 +0530
+
+    feat: Add route to fetch profile posts
+
+[33mcommit 0f944de3ce692139d8ac4a9e4a28920e78333790[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Feb 28 23:06:39 2025 +0530
+
+    updated img to images
+
+[33mcommit 3220ae0fad277a4a53073c41614c5dc0d7c8b792[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Feb 28 16:57:12 2025 +0530
+
+    Add route for saving a post
+
+[33mcommit d33be3fcd772590e0386bd3b9675360efcc9d0c8[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Feb 28 15:10:46 2025 +0530
+
+    fix: fixed the undefined issue
+
+[33mcommit 3c42f91e4b1b5574d8b7b30e2ef1eb1312eb4d58[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Feb 27 17:37:54 2025 +0530
+
+    feat: Implemented filter for post
+
+[33mcommit 411f0d471ca691b1693a631c60490cfce5bedea3[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Feb 27 17:01:03 2025 +0530
+
+    feat: package upgraded
+
+[33mcommit 740f6b5e27435d3b8b9f38dc99111b8e40b7964f[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Feb 27 16:07:31 2025 +0530
+
+    feat: implement data fetching based on URL query parameters
+
+[33mcommit 7ceff735c9f7651bcca0b520f5f16de6afd32444[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Feb 27 12:20:15 2025 +0530
+
+    feat: add data fetching with React Router DOM loader
+
+[33mcommit 34334fe9be48efd9e3c9f91fc44d1f3b5a063664[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Feb 27 10:51:33 2025 +0530
+
+    base url changed to local
+
+[33mcommit 56b2164eee9799b1bacb191c7c6b8de414db0322[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Tue Feb 25 16:07:14 2025 +0530
+
+    Shift README content to diary.md
+
+[33mcommit aec3622d9811da82d2fb5fee80baa9d4e4f9e115[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Tue Feb 25 16:03:41 2025 +0530
+
+    Add Create Post functionality with React Quill editor and image upload
+
+[33mcommit 3ed8aacbd4708d9507c5b5d87be34cfbf57d5f3c[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Mon Feb 24 23:45:18 2025 +0530
+
+    feat: format getPost response to include postData and postDetail separately and add schema for postDetail in Prisma
+
+[33mcommit 886fd614baf5a3f53a2010c3553447b76af56423[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 12:10:22 2025 +0530
+
+    Update project dependencies and resolve Sass deprecation warnings
+
+[33mcommit a98d8a77c68bdacf2287a9654e1384117f189d2d[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 10:38:03 2025 +0530
+
+    apirequest changed
+
+[33mcommit df8a27ab5ef38e1a8fe84419ad21c9fad1b7338d[m
+Merge: 0540b07 8bfd210
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 10:37:32 2025 +0530
+
+    Merge branch 'master' of https://github.com/heysaiyad/Real-estate-web-app
+
+[33mcommit 0540b07dde56d64b261bffa47ecdb23955e94a2f[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 10:36:01 2025 +0530
+
+    removed some comments
+
+[33mcommit 8bfd21074917626ca554e72a323e53bc60dd9f50[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 10:20:17 2025 +0530
+
+    Update apiRequest.js to use environment variables for baseURL based on environment
+
+[33mcommit 34e8b3c5559247de9230ec388abc8362889baa53[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 09:32:17 2025 +0530
+
+    Update API base URL to use deployed URL in apiRequest.js
+
+[33mcommit 5a40061d9450ab9df52d37d43b9aace402fbcfb5[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Jan 31 09:24:32 2025 +0530
+
+     added cors
+
+[33mcommit e4d0688b4674cd63b88f43e01466590e3e804f03[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 23:38:54 2025 +0530
+
+    removed cors
+
+[33mcommit d48619083b0ffa4f1858986e840d06d2ebf99160[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 23:27:37 2025 +0530
+
+    updated client url
+
+[33mcommit d8d41a0663ce033825d998756988ab6a8a4ff8e6[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 23:12:51 2025 +0530
+
+    rollback CORS configuration to allow requests from deployed frontend application
+
+[33mcommit cc50c2fe3229ef2f6146d02327e5920ee3585d96[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 23:01:49 2025 +0530
+
+    Update CORS configuration to allow requests from deployed frontend application
+
+[33mcommit d0939d240cad46d8d8daca19241fc2cb3129b42d[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 22:34:43 2025 +0530
+
+    folder strucure changed
+
+[33mcommit 425cceca2470cb7c0885c403c74c9263a05b6259[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 22:32:31 2025 +0530
+
+    client shifted in api
+
+[33mcommit 2de07dcd8a8aef041bc292183e54b485a74a2d94[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Thu Jan 30 21:51:39 2025 +0530
+
+    updated readme.md file
+
+[33mcommit 375120bbdb102632379a027bd8014b9afc0fd854[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri Aug 23 00:04:25 2024 +0530
+
+    fix:fixed the database issue
+
+[33mcommit da88e5b90232ca8545939d97dcb3bac86dce050a[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 11 17:05:03 2024 +0530
+
+    Added post router and controler
+
+[33mcommit 649b89fb7ac0a720bba2a61e1c48c81c9c9547dc[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri May 10 23:58:16 2024 +0530
+
+    Completed profile and updateprofile page
+
+[33mcommit 99af01bb34b46c6b67c38b5066dfdbc6574fab45[m
+Merge: 22ab4eb 8d15a50
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri May 10 00:33:54 2024 +0530
+
+    Merge https://github.com/heysaiyad/Real-estate-web-app
+
+[33mcommit 22ab4eb5a89284ab1dd063f78b6b13155e094c9d[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Fri May 10 00:30:16 2024 +0530
+
+    Added profile page update
+
+[33mcommit 8d15a5035e85bef96385c6280368f4f41c404527[m
+Merge: ab244b2 9fbd7ce
+Author: Md Saiyad Ali <101666661+heysaiyad@users.noreply.github.com>
+Date:   Wed May 8 17:02:21 2024 +0530
+
+    Merge pull request #1 from heysaiyad/dependabot/npm_and_yarn/client/vite-5.1.7
+    
+    Bump vite from 5.1.4 to 5.1.7 in /client
+
+[33mcommit 9fbd7cebcdc1e8e4c617e311222f5d5b36edeb71[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed May 8 11:31:21 2024 +0000
+
+    Bump vite from 5.1.4 to 5.1.7 in /client
+    
+    Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 5.1.4 to 5.1.7.
+    - [Release notes](https://github.com/vitejs/vite/releases)
+    - [Changelog](https://github.com/vitejs/vite/blob/v5.1.7/packages/vite/CHANGELOG.md)
+    - [Commits](https://github.com/vitejs/vite/commits/v5.1.7/packages/vite)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: vite
+      dependency-type: direct:development
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit ab244b24c4fa6038d1592e57ff5a337b0943fceb[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Wed May 8 16:59:24 2024 +0530
+
+    Added some features like update profile login auth
+
+[33mcommit 761dd98dbe715fd65c286f13ca21fbb7ef435940[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Wed May 8 09:36:45 2024 +0530
+
+    .
+
+[33mcommit 7af9ad3dfc7d3ea01f85e9d24396ff78408d1790[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Wed May 8 09:35:41 2024 +0530
+
+    .
+
+[33mcommit 1714ff3bf578ddbe7e3e44ae729372f7f507ee7c[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Wed May 8 09:31:27 2024 +0530
+
+    Updated Readme.me
+
+[33mcommit 417b76135cf8c69773d394a5872b4190977669a0[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Tue May 7 12:11:16 2024 +0530
+
+    Added middle for authentication
+
+[33mcommit a6a991927d81b7aee26c443b05ab5246939d3b42[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Tue May 7 10:14:49 2024 +0530
+
+    Added logout features
+
+[33mcommit 4f08d64b71e6c7ca8efe2d644e4eb8242a994999[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Mon May 6 20:06:37 2024 +0530
+
+    bugs fixed
+
+[33mcommit df9db758802f23b9f5d7e0a6da77ae4b23dc6c37[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:46:38 2024 +0530
+
+    .
+
+[33mcommit 9da6f5e42da986dcba633f43b42a4cd1e2ccec0b[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:41:57 2024 +0530
+
+    .
+
+[33mcommit c4d59ff2901c06a728f344a8b338049b5270658e[m
+Merge: 63ff63e 50415e3
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:39:30 2024 +0530
+
+    Merge https://github.com/heysaiyad/Real-estate-web-app
+
+[33mcommit 63ff63e75083c051f0d9d5f025b35e260338eff6[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:35:15 2024 +0530
+
+    .
+
+[33mcommit 50415e36c16065ef9e72c2e22605d79cde5c7e00[m
+Author: Md Saiyad Ali <101666661+heysaiyad@users.noreply.github.com>
+Date:   Sat May 4 23:23:01 2024 +0530
+
+    Delete api/.env
+
+[33mcommit 54c0c9a8fedddc111f6f8f095d5a52c09c8fec33[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:17:14 2024 +0530
+
+    .
+
+[33mcommit 36a6152e814f35ea5f8ee20ee54463b2bbdbf121[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:15:27 2024 +0530
+
+    .
+
+[33mcommit 571245c2b6779952ecdfca0389990242628c5548[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 23:12:12 2024 +0530
+
+    Added vercel.json file
+
+[33mcommit d61d465797e9aee403e2102ef4e4e3995eb50a0b[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 19:15:23 2024 +0530
+
+    Added upto user authentication controller
+
+[33mcommit 1e04df3c833097e6e3bbbb02ecab3fb6e795726a[m
+Author: Md Saiyad Ali <md2455.be21@chitkara.edu.in>
+Date:   Sat May 4 11:26:32 2024 +0530
+
+    Added backned
