@@ -28,8 +28,8 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-  // origin: "https://real-estate-web-app-1cus.onrender.com",
-  origin: "http://localhost:5173", 
+  origin: "https://real-estate-web-app-1cus.onrender.com",
+  // origin: "http://localhost:5173", 
   credentials: true, // Allow cookies to be sent
 };
 app.use(cors(corsOptions));
